@@ -1,0 +1,25 @@
+{
+  "name": "token_cap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.2",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-dev": "jest --watchAll",
+    "build": "rm -rf build/ && tsc"
+  },
+  "dependencies": {
+    "date-fns": "^1.30.1"
+  }
+}
